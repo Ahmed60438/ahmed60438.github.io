@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="دليلك العربي لأفضل أدوات الذكاء الاصطناعي في مجالات الكتابة، التصميم، التسويق والمزيد. اكتشف، جرّب، واستفد مجاناً.">
+    <meta name="google-site-verification" content="iqw2zhrswf3ukIHKgTDe9ZB5tLIAQS5p15Wy3DWU9Oc" />
+    <title>🧠 أدوات الذكاء الاصطناعي</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, sans-serif;
+            margin: 0;
+            padding: 0;
+            direction: rtl;
+            background-color: #f8f9fa;
+            color: #333;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        header h1 {
+            margin: 0 0 10px 0;
+            font-size: 1.8rem;
+        }
+        nav a {
+            margin: 0 10px;
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        #searchInput {
+            width: 80%;
+            max-width: 400px;
+            padding: 10px;
+            margin-top: 15px;
+            border: none;
+            border-radius: 5px;
+        }
+        main {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 1rem;
+            gap: 1rem;
+        }
+        .tool-card {
+            background-color: #fff;
+            border-radius: 12px;
+            padding: 1rem;
+            width: 300px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            transition: transform 0.2s;
+        }
+        .tool-card:hover {
+            transform: scale(1.03);
+        }
+        .tool-card h2 {
+            margin-top: 0;
+            color: #4CAF50;
+        }
+        .tool-card a {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 8px 12px;
+            background-color: #4CAF50;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .tool-card a:hover {
+            background-color: #45a049;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+            margin-top: 2rem;
+        }
+        @media (max-width: 600px) {
+            .tool-card { width: 90%; }
+            #searchInput { width: 95%; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>🧠 أدوات الذكاء الاصطناعي</h1>
+        <nav>
+            <a href="#">الكل</a>
+            <a href="#">كتابة</a>
+            <a href="#">تصميم</a>
+            <a href="#">تسويق</a>
+            <a href="#">فيديو</a>
+            <a href="#">صوت</a>
+        </nav>
+        <input type="text" id="searchInput" placeholder="ابحث عن أداة...">
+    </header>
+    <main id="tools-container"></main>
+    <footer><p>جميع الحقوق محفوظة © 2025</p></footer>
+    <script>
+        const tools = [
+            { name: "ChatGPT", desc: "دردشة ذكية مع الذكاء الاصطناعي لإنشاء نصوص وإجابات.", cat: "كتابة", url: "https://chat.openai.com" },
+            { name: "Canva AI", desc: "تصميم صور ومنشورات باستخدام الذكاء الاصطناعي.", cat: "تصميم", url: "https://www.canva.com" },
+            { name: "Grammarly", desc: "تصحيح لغوي ونحوي آلي.", cat: "كتابة", url: "https://www.grammarly.com" },
+            { name: "Notion AI", desc: "كتابة وتلخيص وتخطيط محتوى داخل Notion.", cat: "كتابة", url: "https://www.notion.so/product/ai" },
+            { name: "Midjourney", desc: "إنشاء صور فنية من وصف نصي.", cat: "تصميم", url: "https://www.midjourney.com" },
+            { name: "Copy.ai", desc: "كتابة إعلانات ومحتوى تسويقي.", cat: "تسويق", url: "https://www.copy.ai" },
+            { name: "Jasper", desc: "كتابة مقالات تسويقية وإعلانية.", cat: "كتابة", url: "https://www.jasper.ai" },
+            { name: "Pictory", desc: "تحويل نصوص إلى فيديوهات تلقائيًا.", cat: "فيديو", url: "https://pictory.ai" },
+            { name: "Synthesia", desc: "إنشاء فيديوهات بذكاء اصطناعي بشخصيات ناطقة.", cat: "فيديو", url: "https://www.synthesia.io" },
+            { name: "Runway ML", desc: "تحرير فيديو احترافي بذكاء اصطناعي.", cat: "تصميم", url: "https://runwayml.com" },
+            { name: "Descript", desc: "تسجيل وتحرير صوت وفيديو بذكاء اصطناعي.", cat: "صوت", url: "https://www.descript.com" },
+            { name: "ElevenLabs", desc: "تحويل النص إلى صوت واقعي وطبيعي.", cat: "صوت", url: "https://elevenlabs.io" },
+            { name: "Leonardo AI", desc: "توليد رسومات احترافية بالأوامر النصية.", cat: "تصميم", url: "https://leonardo.ai" },
+            { name: "DALL·E", desc: "توليد صور من وصف نصي.", cat: "تصميم", url: "https://openai.com/dall-e" },
+            { name: "Lumen5", desc: "تحويل مقالات إلى فيديوهات تلقائية.", cat: "تسويق", url: "https://lumen5.com" },
+            { name: "Rytr", desc: "كتابة نصوص قصيرة وسريعة.", cat: "كتابة", url: "https://rytr.me" },
+            { name: "QuillBot", desc: "إعادة صياغة وتلخيص النصوص.", cat: "كتابة", url: "https://quillbot.com" },
+            { name: "Beautiful.ai", desc: "تصميم عروض تقديمية تلقائيًا.", cat: "تصميم", url: "https://www.beautiful.ai" },
+            { name: "Inkforall", desc: "كتابة وتحسين محركات البحث.", cat: "تسويق", url: "https://inkforall.com" },
+            { name: "Krisp", desc: "إزالة الضوضاء من المكالمات الصوتية.", cat: "صوت", url: "https://krisp.ai" }
+        ];
+        const container = document.getElementById('tools-container');
+        tools.forEach(tool => {
+            const div = document.createElement('div');
+            div.className = 'tool-card';
+            div.innerHTML = `<h2>${tool.name}</h2>
+                             <p>${tool.desc}</p>
+                             <p><strong>التصنيف:</strong> ${tool.cat}</p>
+                             <a href="${tool.url}" target="_blank">زيارة الأداة</a>`;
+            container.appendChild(div);
+        });
+        document.getElementById('searchInput').addEventListener('input', function () {
+            const val = this.value.toLowerCase();
+            document.querySelectorAll('.tool-card').forEach(card => {
+                const name = card.querySelector('h2').textContent.toLowerCase();
+                const desc = card.querySelector('p').textContent.toLowerCase();
+                card.style.display = name.includes(val) || desc.includes(val) ? '' : 'none';
+            });
+        });
+    </script>
+</body>
+</html>
