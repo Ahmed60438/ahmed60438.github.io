@@ -1,0 +1,11 @@
+# السماح لجميع محركات البحث بالوصول إلى الموقع
+User-agent: *
+Allow: /
+
+# منع الوصول إلى ملفات حساسة (إن وُجدت)
+Disallow: /admin/
+Disallow: /login/
+Disallow: /dashboard/
+
+# مسار خريطة الموقع (sitemap.xml)
+Sitemap: https://ahmed60438.github.io/ai_tools_site/sitemap.xml
