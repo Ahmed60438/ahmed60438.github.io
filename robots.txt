@@ -8,4 +8,4 @@ Disallow: /login/
 Disallow: /dashboard/
 
 # مسار خريطة الموقع (sitemap.xml)
-Sitemap: https://ahmed60438.github.io/ai_tools_site/sitemap.xml
+Sitemap: https://ahmed60438.github.io/sitemap.xml
