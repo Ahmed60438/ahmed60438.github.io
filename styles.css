@@ -1,0 +1,96 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    direction: rtl;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#hero {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #007BFF;
+    color: white;
+}
+
+#tools {
+    padding: 20px;
+}
+
+.tools-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.tool-card {
+    background-color: white;
+    padding: 20px;
+    margin: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 200px;
+}
+
+.tool-card img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.tool-card h3 {
+    margin: 10px 0;
+}
+
+.tool-card p {
+    margin-bottom: 15px;
+}
+
+.tool-card a {
+    color: #007BFF;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#about {
+    padding: 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
