@@ -1,123 +1,147 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://example.com/index.html</loc>
+    <loc>https://ahmed60438.github.io/index.html</loc>
+    <lastmod>2025-08-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://ahmed60438.github.io/search.html</loc>
+    <lastmod>2025-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://example.com/search.html</loc>
+    <loc>https://ahmed60438.github.io/about.html</loc>
+    <lastmod>2025-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://example.com/about.html</loc>
+    <loc>https://ahmed60438.github.io/privacy.html</loc>
+    <lastmod>2025-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://example.com/privacy.html</loc>
+    <loc>https://ahmed60438.github.io/contact.html</loc>
+    <lastmod>2025-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://example.com/contact.html</loc>
+    <loc>https://ahmed60438.github.io/problem1.html</loc>
+    <lastmod>2025-08-26</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://example.com/problem1.html</loc>
+    <loc>https://ahmed60438.github.io/problem2.html</loc>
+    <lastmod>2025-08-26</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://example.com/problem2.html</loc>
+    <loc>https://ahmed60438.github.io/problem3.html</loc>
+    <lastmod>2025-08-26</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://example.com/problem3.html</loc>
+    <loc>https://ahmed60438.github.io/problem4.html</loc>
+    <lastmod>2025-08-26</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://example.com/problem4.html</loc>
+    <loc>https://ahmed60438.github.io/problem5.html</loc>
+    <lastmod>2025-08-26</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://example.com/problem5.html</loc>
+    <loc>https://ahmed60438.github.io/problem6.html</loc>
+    <lastmod>2025-08-26</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://example.com/problem6.html</loc>
+    <loc>https://ahmed60438.github.io/problem7.html</loc>
+    <lastmod>2025-08-26</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://example.com/problem7.html</loc>
+    <loc>https://ahmed60438.github.io/problem8.html</loc>
+    <lastmod>2025-08-26</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://example.com/problem8.html</loc>
+    <loc>https://ahmed60438.github.io/problem9.html</loc>
+    <lastmod>2025-08-26</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://example.com/problem9.html</loc>
+    <loc>https://ahmed60438.github.io/problem10.html</loc>
+    <lastmod>2025-08-26</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://example.com/problem10.html</loc>
+    <loc>https://ahmed60438.github.io/problem11.html</loc>
+    <lastmod>2025-08-26</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://example.com/problem11.html</loc>
+    <loc>https://ahmed60438.github.io/problem12.html</loc>
+    <lastmod>2025-08-26</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://example.com/problem12.html</loc>
+    <loc>https://ahmed60438.github.io/problem13.html</loc>
+    <lastmod>2025-08-26</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://example.com/problem13.html</loc>
+    <loc>https://ahmed60438.github.io/problem14.html</loc>
+    <lastmod>2025-08-26</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://example.com/problem14.html</loc>
+    <loc>https://ahmed60438.github.io/problem15.html</loc>
+    <lastmod>2025-08-26</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://example.com/problem15.html</loc>
+    <loc>https://ahmed60438.github.io/problem16.html</loc>
+    <lastmod>2025-08-26</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://example.com/problem16.html</loc>
+    <loc>https://ahmed60438.github.io/problem17.html</loc>
+    <lastmod>2025-08-26</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://example.com/problem17.html</loc>
+    <loc>https://ahmed60438.github.io/problem18.html</loc>
+    <lastmod>2025-08-26</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://example.com/problem18.html</loc>
+    <loc>https://ahmed60438.github.io/problem19.html</loc>
+    <lastmod>2025-08-26</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://example.com/problem19.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
 </urlset>
